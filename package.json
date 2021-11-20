@@ -14,6 +14,7 @@
   "author": "Dogukan Kefeli",
   "license": "MIT",
   "dependencies": {
-    "tmi.js": "^1.8.5"
+    "tmi.js": "^1.8.5",
+    "dotenv":"10.0.0"
   }
 }
