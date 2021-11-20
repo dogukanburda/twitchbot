@@ -1,3 +1,4 @@
+require('dotenv').config();
 const tmi = require('tmi.js');
 const client = new tmi.Client({
 	options: { debug: true, messagesLogLevel: "info" },
@@ -6,8 +7,8 @@ const client = new tmi.Client({
 		secure: true
 	},
 	identity: {
-		username: 'kefelid',
-		password: 'oauth:XXXXXXXXX'
+		username: process.env.TWITCH_BOT_USERNAME,
+		password: process.env.TWITCH_BOT_TOKEN
 	},
 	channels: [ 'dogukanburda' ]
 });
