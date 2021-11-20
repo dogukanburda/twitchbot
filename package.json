@@ -1,0 +1,19 @@
+{
+  "name": "dogukanbot",
+  "version": "1.0.0",
+  "description": "bot for handling the b*#stards",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "twitch",
+    "chat",
+    "bot"
+  ],
+  "author": "Dogukan Kefeli",
+  "license": "MIT",
+  "dependencies": {
+    "tmi.js": "^1.8.5"
+  }
+}
